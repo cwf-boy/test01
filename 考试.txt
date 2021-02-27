@@ -1,0 +1,39 @@
+》JSP在服务器中进行编译时，将首先被转译成：Servlet
+》Jsp在转译阶段生成文件的扩展名是：java
+》在使用JavaMailAPI发送邮件时可以使用哪个方法：Transport.send()
+》在J2EE中，假如HttpSession的getLastAccessTime()方法返回值为x，getCreationTime()方法返回值为y，则为x - y()：最后使用session发送请求的时间和session创建时间的间隔
+》MVC中的 M V C 分别用_______、_______、_____表示：javabean jsp servlet
+》J2EE的全称是Java 2 Platform Enterprise Edition，它是由SUN公司领导、各厂家共同制定并得到广泛认可的工业标准；
+组件：
+（1）客户层组件，包括客户端应用程序和Applets；
+（2）Web层组件，包括Java Servlet和Java Server Pages（JSP）；
+（3）业务层组件，即Enterprise JavaBeans（EJB）。
+》<jsp:include page=”relativeURI” flush=”true” />是在请求处理阶段执行。
+》JSP分页代码中，哪个步骤次序是正确的？先取总记录数，得到总页数，最后显示本页的数据。
+》super关键字是在子类对象内部指代其父类对象的引用
+》一个类可以具有多个子类
+》构造方法必须与类名相同，构造方法可以带有参数，构造方法可以重载，构造方法绝对不能有返回值
+》局部变量的作用范围仅仅在定义它的方法内，或者是在定义它的控制流块中
+》基本数据类型和String相加结果一定是字符串型
+》运算符顺序正确的是：由高向低分别是：()、!、算术运算符、关系运算符、逻辑运算符、赋值运算符
+》AJAX的核心对象的哪个方法可以将请求发送到服务器？send
+》AJAX的核心对象的open方法的三个参数open(p1,p2,p3)其中p3代表：请求的类型，同步或异步
+》Ajax中的XMLHttpRequest核心对象的open方法的三个参数open(p1,p2,p3)其中p2代表：请求的URL     p1代表：请求方式，get或post
+》下面IE6浏览器创建AJAX核心对象的方法哪个正确？：new ActiveXObject("Microsoft.XMLHTTP");
+》AJAX的核心对象是：XMLHttpRequest
+》在Ajax的几种技术中，JavaScript的主要作用是?控制通信
+》页面访问时显示“400”错误，是AJAX核心对象的哪个属性值？status
+》以下enctype的哪个值可以完成表单的上传设置：multipart/form-data
+》jsp处理表单上传，需要设置form的一下哪个属性？enctype
+在 form 元素的语法中，enctype 表明提交数据的格式。
+
+用 enctype 属性指定将数据回发到服务器时浏览器使用的编码类型。
+
+下边是说明：
+
+ application/x-www-form-urlencoded： 窗体数据被编码为名称/值对。这是标准的编码格式。
+ multipart/form-data： 窗体数据被编码为一条消息，页上的每个控件对应消息中的一个部分。
+ text/plain： 窗体数据以纯文本形式进行编码，其中不含任何控件或格式字符。
+
+》在Java Web应用程序中,EL表达式可用于访问( )中存储的数据 ：JavaBean 什么是JavaBean？ 是一个公共的类，含有一些私有属性，以及对这些私有属性的get和set方法。在java中，类表示对象，所以可以使用JavaBean类表示对象。
+》DriverManager类用来管理数据库中的所有驱动程序
